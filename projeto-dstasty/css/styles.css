@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background: rgba(221, 221, 221, 1);
+}
+
+header {
+  height: 70px;
+  background-color: rgba(240, 60, 66, 1);
+  margin-bottom: 40px;
+}
+
+.container h1 {
+  font-size: 1.5em;
+  color: white;
+  margin: 17px;
+}
+
+.container {
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px 0 0 10px;
+}
+
+.sabor {
+  background: white;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.content-pizza {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.content-pizza h2 {
+  font-size: 1.25em;
+  color: rgba(94, 94, 94, 1);
+  font-weight: bold;
+}
+
+.content-pizza p {
+  font-size: 0.875em;
+  color: rgba(94, 94, 94, 1);
+}
+
+.content-pizza .preco {
+  font-size: 1.25em;
+  color: #02b814;
+  font-weight: bold;
+}
+
+.section-comments {
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-comments h1 {
+  font-size: 2em;
+  line-height: 48px;
+  margin: 10px;
+}
+
+.comment {
+  width: 960px;
+  height: 79px;
+  font-size: 16px;
+  margin: 20px;
+  padding-left: 40px;
+  border-radius: 10px;
+  background: #fff964;
+  color: #f03c42;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer {
+  height: 120px;
+  background: #f03c42;
+  color: white;
+}
+
+.container-footer {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
